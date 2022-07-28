@@ -167,7 +167,7 @@ def loader():
     d2 = random.randint(0,int(len(object_property_list) - 1))
     d3 = random.randint(0,int(len(object_list) - 1))
     print(str.capitalize(action_list[d1]) + " " + object_property_list[d2] + " " + object_list[d3] + "...")
-    time.sleep(5)
+    time.sleep(int(random.randint(1, 5)))
 
 # Calling the function as an infinite while loop
 while __name__ == '__main__':
