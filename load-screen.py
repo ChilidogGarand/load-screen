@@ -71,15 +71,52 @@ action_list = ['booting', 'cracking', 'hyperadjusting', 'importing telemetry for
  'applying floral preference to', 'applying qauntum preference to', 'applying escalation preferences to',
  'unhinging', 'hinging', 're-hinging', 'changing', 'pseudo-channeling', 
  'channeling', 're-channeling', 'de-channeling', 'un-channeling', 'quantum channeling',
- 'summing', 'pseudo-summing', 'quantum summing', 
-  ]
+ 'summing', 'pseudo-summing', 'quantum summing', 'quantum scumming', 'thrimbaling',
+ 'de-thrimbaling', 'pseudo-thrimbaling', 'un-dethrimbaling', 're-dethrimbaling', 're-thrimbaling',
+ 'un-thrimbaling', 'undoing', 'save scumming', 'pseudo save-scumming', 'committing',
+ 'de-committing', 'attempting quantum committal of', 'attempting quantum de-committal of',
+ 'de-fragging', 're-fragging', 'un-fragging', 'fragging', 'un-defragging', 'quantum defragging',
+ 'quantum un-defragging', 'pseudo-defragging', 'pseudo-refragging', 'fucking with',
+ 'un-fucking', 'unscrewing', 're-screwing', 'rescuing', 'de-scrambling', 'unscrambling', 
+ 'under-scrambling', 'undercooking', 'cooking', 'preparing', 'unpreparing', 'disarming',
+ 'quantum-disarming', 'quantum scrambling', 'quantum dilating', 'dialing into', 
+ 'phoning', 'describing', 'generating configs for', 'generating trust for',
+ 'establishing trust in', 'governing', 'detecting', 'undetecting', 're-detecting', 
+ 'pseudo-detecting', 'super-detecting', 'undeleting save files for', 'deleting save files for',
+ 'redacting saved state of', 'redacting', 'un-redacting', 're-redacting', 're-re-redacting',
+ 'penetrating', "setting state 'ungovernable' for", 'setting up', 'tearing down',
+ 'making amends for', 'making peace with', 'making excuses for', 'super-positioning',
+ 'un-superpositioning', 'believing', 'unbelieving', 'trusting', 'untrusting',
+ 'being wary of', 'becoming suspicious of', 'reducing suspicious output of',
+ 'determining veracity of', 'determining trust in', 'finding out more about',
+ 'delivering', 'undelivering', 're-delivering', 'un-redelivering', 'submerging',
+ 'gently poking', 'gently assessing', 'asserting', 'unasserting', 'reasserting',
+ 'pushing', 'pulling', 'poking', 'hyperstretching',
+
+   ]
 
 object_property_list = ['unnecessary', 'lengthy', 'foolish', 'unbalanced', 'undiscoverable',
 'unknowable', 'tiny', 'little', 'miniscule', 'nano-scale', 'pico-scale', 'giga-scaled',
 'psuedo-strange', 'pseudo-quantum', 'pseudo-alerted', 'pseudo-smelly', 'pseudo-stinky',
 'pseudo-tiny', 'pseudo-unknowable', 'pseudo-unbalanced', 'psuedo', 'rooted', 'unrooted',
-'unhinged', 
- 
+'unhinged', 're-hinged', 'webhooked', 'load API for', 'root API for', 'secret API for',
+'secret', 'secret path to', 'secret door into', 'secret butt stuff with', 'quantum API for',
+'unfraggable', 'unfuckwithable', 'unponderable', 'unloadable', 'unlocated', 'relocated',
+'redacted', 'un-redacted', 're-redacted', 'super-redacted', 'super-relatable', 'quintessential',
+'relative', 'unrelated', 'unrelatable', 'fuckwithable', 'wild', 'silly', 'orphaned',
+'widowed', 'widowered', 'resounding', 'formidable', 'bulky', 'fragged', 're-fragged',
+'de-fragged', 'un-fragged', 'delta-wave', 'alpha-wave', 'zeta-wave', 'zeta-band',
+'epsilon', 'diameterized', 'demilitarized', 'deduced', 'reduced', 'undue', 'undone',
+'interesting', 'uninteresting', 'antithetical', 'un-antithetical', 'undiscovered',
+'undiscoverable', 'scrambled', 'assessed', 'containable', 'containerized', 'uncontainerized',
+'detected', 'undetected', 'superdetected', 'duplicated', 'sub-duplicated', 're-duplicated',
+'unduplicated', 'duplicitous', 'untrustworthy', 'trustworthy', 'secured', 'un-secured',
+'collated', 'un-collated', 'supercollated', 'hypercollated', 'superimposed',
+'hyper-imposed', 'quantum disposition of', 'native habitat of', 'ionized', 're-ionized',
+'un-deionized', 'hyperbolized', 'impenetrable', 'penetrable', 'super-positioned',
+'supposable', 'theoretical', 'theorized', 'untheorized', 're-theorized', 'fingered',
+'sleepy', 'folksy', 'dopey', 'doofed', 'mangled', 'marbled', 'ionic', 'unbelievable',
+
 ]
 
 object_list = ['load arguments', 'toughnut.dll', 'property', 'theory', 'dithers',
@@ -93,7 +130,7 @@ def loader():
     d1 = random.randint(0,int(len(action_list) - 1))
     d2 = random.randint(0,int(len(object_property_list) - 1))
     d3 = random.randint(0,int(len(object_list) - 1))
-    print(str.capitalize(action_list[d1]) + " " + object_property_list[d2] + " " + object_list[d3])
+    print(str.capitalize(action_list[d1]) + " " + object_property_list[d2] + " " + object_list[d3] + "...")
     time.sleep(5)
 
 # Calling the function as an infinite while loop
