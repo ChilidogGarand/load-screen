@@ -40,3 +40,10 @@ Creating psuedo-strange property...
     * Will likely do this to include action prefixes, then trimming the action list down so the actions on it are prefixable.
 * Adding loading ellipses or a spinner after each statement to better create the illusion that something silly is loading.
 * May redefine some of the lists as dictionaries so that more complex statements can be constructed.
+
+## Current List Lengths:
+```
+Length of action_list: 401
+Length of object_property_list: 224
+Length of object_list: 100
+```
