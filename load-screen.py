@@ -91,7 +91,11 @@ action_list = ['booting', 'cracking', 'hyperadjusting', 'importing telemetry for
  'determining veracity of', 'determining trust in', 'finding out more about',
  'delivering', 'undelivering', 're-delivering', 'un-redelivering', 'submerging',
  'gently poking', 'gently assessing', 'asserting', 'unasserting', 'reasserting',
- 'pushing', 'pulling', 'poking', 'hyperstretching',
+ 'pushing', 'pulling', 'poking', 'hyperstretching', 'refactoring', 'unfactoring', 
+ 'defactoring', 'un-refactoring', 're-refactoring', 'un-defactoring', 'teaching definitions to',
+ 'teaching manners to', 'establising cleanliness of', 'networking', 'compromising',
+ 'uncompromising', 'de-compromising', 'quarantining', 'un-quarantining', 're-quarantining',
+ 'testing', 're-testing', 'untesting', 
 
    ]
 
@@ -116,11 +120,34 @@ object_property_list = ['unnecessary', 'lengthy', 'foolish', 'unbalanced', 'undi
 'un-deionized', 'hyperbolized', 'impenetrable', 'penetrable', 'super-positioned',
 'supposable', 'theoretical', 'theorized', 'untheorized', 're-theorized', 'fingered',
 'sleepy', 'folksy', 'dopey', 'doofed', 'mangled', 'marbled', 'ionic', 'unbelievable',
+'file', 'location of', 'indicated', 'unindicated', 'unsaved', 'formatted', 'rejiggered',
+'un-rejiggered', 'networked', 'unsaved', 'compressed', 'uncompressed', 'compromised',
+'uncompromised', 'extorted', 'ineffable', 'immutable', 'effable', 'mutable', 'muted',
+'unmuted', 'unfertile', 'fertile', 'reactive', 'unreactive', 'frozen', 'burning',
+'quarantined', 'unquarantined', 'tested', 'testable', 'untestable', 'untested',
+'unconfigured', 'unobscured', 'unfound', 'unfindable', 'unobservable', 'malfunctioning',
+'maladapted', 'unadapted', 'adapated', 're-adapted', 're-adaptable', 'unadaptable',
+'unloaded', 'reloaded', 'refigured', 'unsigned', 'signed', 'encrypted', 'unencrypted',
+
 
 ]
 
 object_list = ['load arguments', 'toughnut.dll', 'property', 'theory', 'dithers',
-'foray', 'flowerchild'
+'foray', 'flowerchild', 'array', 'phase array', 'pseudo-array', 'unmentionables', 
+'quantum array', 'quantum state', 'goatse.jpg', 'lemonparty.jpg', 'fursona.bak',
+'fursona.pub', 'messages', 'config file', 'bootstrapper', 
+'rule_34_links.md', "folder 'D.Va Cosplay pics'", 'file folders', 'file location',
+'location', 'superposition', 'daemons', 'butter.py', 'container', 'applications', 
+'load order', 'pictures', 'music', 'network settings', 'backups', 'avaliability',
+'unavailability', 'foragability', 'phase', 'function', 'foundation', 'pastebin',
+'process', 'stall-state', "folder 'Star Wars Fanfics'", 'theories', 'files', 'OOB operations',
+'state', 'undiscoverables', 'monkeyfight.gif', 'load screen', 'bootloader', 'boot path',
+'mount location', 'flappables', 'stretchables', 'fattenables', 'unfattenables', 
+'compressables', 'jimmy hats', 'frog functions', 'toad functions', 'planes', 
+'architectures', 'formats', 'splines', 'gimbals', 'thrimbals', 'himbo potential',
+'potential', 'potentials', 'borrowers', 'malfeasance', 'negligence', 'snapshots',
+'subvolumes', 'subdirectories', 'subroutines', 'sub-functions', 'superfunctions',
+'malfunctions', 
 ]
 
 # Main function to generate fun loading messages. Pulls a random number for the
@@ -136,3 +163,8 @@ def loader():
 # Calling the function as an infinite while loop
 while __name__ == '__main__':
     loader()
+
+# Debug function to count length of lists
+#print("Length of action_list: " + str(len(action_list)))
+#print("Length of object_property_list: " + str(len(object_property_list)))
+#print("Length of object_list: " + str(len(object_list)))
