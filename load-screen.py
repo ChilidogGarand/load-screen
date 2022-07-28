@@ -95,7 +95,8 @@ action_list = ['booting', 'cracking', 'hyperadjusting', 'importing telemetry for
  'defactoring', 'un-refactoring', 're-refactoring', 'un-defactoring', 'teaching definitions to',
  'teaching manners to', 'establising cleanliness of', 'networking', 'compromising',
  'uncompromising', 'de-compromising', 'quarantining', 'un-quarantining', 're-quarantining',
- 'testing', 're-testing', 'untesting', 
+ 'testing', 're-testing', 'untesting', 'touching', 'cataloguing', 'tracking', 'translating',
+ 're-translating', 'governing', 'ungoverning'
 
    ]
 
@@ -128,8 +129,14 @@ object_property_list = ['unnecessary', 'lengthy', 'foolish', 'unbalanced', 'undi
 'unconfigured', 'unobscured', 'unfound', 'unfindable', 'unobservable', 'malfunctioning',
 'maladapted', 'unadapted', 'adapated', 're-adapted', 're-adaptable', 'unadaptable',
 'unloaded', 'reloaded', 'refigured', 'unsigned', 'signed', 'encrypted', 'unencrypted',
-
-
+'natural', 'unnatural', 'supernatural', 'hypernatural', 'subnatural', 'unfriended',
+'unmolested', 'malformed', 'alpha-band', 'beta-wave', 'delta-band', 'beta-band',
+'sub-beta', 'sub-alpha', 'sub-par', 'scripted', 'rationed', "ratio'ed", 'physical',
+'ethereal', 'even-keeled', 'caddywompus', 'dejiggered', 'de-wormed', 'spammed', 
+'spurned', 'spilled', 'spooked', 'tracked', 'untracked', 'de-tracked', 're-tracked',
+'un-detracked', 'un-retrackable', 'untouchable', 'ungovernable', 'pseudo-governable',
+'governable', 'anti-governable', 'ghost', 'child', 'parent', 'grandparent', 'fossilized',
+'managed', 'unmanaged', 'anti-managed'
 ]
 
 object_list = ['load arguments', 'toughnut.dll', 'property', 'theory', 'dithers',
@@ -147,7 +154,9 @@ object_list = ['load arguments', 'toughnut.dll', 'property', 'theory', 'dithers'
 'architectures', 'formats', 'splines', 'gimbals', 'thrimbals', 'himbo potential',
 'potential', 'potentials', 'borrowers', 'malfeasance', 'negligence', 'snapshots',
 'subvolumes', 'subdirectories', 'subroutines', 'sub-functions', 'superfunctions',
-'malfunctions', 
+'malfunctions', 'order of things', 'jibblies', 'jellies', 'jiggerties', 'properties',
+'pronouns', 'gender', 'flubbables', 'bloopers', 'effables', 'ineffables', 'scripts',
+'rations', 'h4x0rm@n', 'password', 'passphrase', 'token', 'fish-petting' 
 ]
 
 # Main function to generate fun loading messages. Pulls a random number for the
