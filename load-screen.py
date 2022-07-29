@@ -273,8 +273,8 @@ def debug_length():
     print("Length of object_list: " + str(len(object_list)))
 
 # Calling the function as an infinite while loop
-#while __name__ == '__main__':
-#    loader()
+while __name__ == '__main__':
+    loader()
 
 # Calling debug function to output list length
-debug_length()
+#debug_length()
