@@ -43,7 +43,7 @@ Creating psuedo-strange property...
 
 ## Current List Lengths:
 ```
-Length of action_list: 401
-Length of object_property_list: 224
-Length of object_list: 100
+Length of action_list: 409
+Length of object_property_list: 404
+Length of object_list: 403
 ```

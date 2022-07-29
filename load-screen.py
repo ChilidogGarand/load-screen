@@ -96,7 +96,8 @@ action_list = ['booting', 'cracking', 'hyperadjusting', 'importing telemetry for
  'teaching manners to', 'establising cleanliness of', 'networking', 'compromising',
  'uncompromising', 'de-compromising', 'quarantining', 'un-quarantining', 're-quarantining',
  'testing', 're-testing', 'untesting', 'touching', 'cataloguing', 'tracking', 'translating',
- 're-translating', 'governing', 'ungoverning'
+ 're-translating', 'governing', 'ungoverning', 'hypothesizing', 'un-hypothesizing', 'doofing',
+ 'undoofing', 'redoofing', 'dedoofing', 'regoverning', 'ungoverning'  
 
    ]
 
@@ -136,7 +137,40 @@ object_property_list = ['unnecessary', 'lengthy', 'foolish', 'unbalanced', 'undi
 'spurned', 'spilled', 'spooked', 'tracked', 'untracked', 'de-tracked', 're-tracked',
 'un-detracked', 'un-retrackable', 'untouchable', 'ungovernable', 'pseudo-governable',
 'governable', 'anti-governable', 'ghost', 'child', 'parent', 'grandparent', 'fossilized',
-'managed', 'unmanaged', 'anti-managed'
+'managed', 'unmanaged', 'anti-managed', 'thrimbaled', 'thrimbaling', 'unthrimbaled',
+'unthrimbaling', 'anti-thrimbaling', 'corporate', 'proprietary', 'open source',
+'libre', 'free-as-in-beer', 'free-as-in-speech', 'based', 'unbased', 'based AF',
+'decidedly based', 'decidedly unbased', 'gothic', 'cyberquarantined', 'hyperquarantined',
+'anti-quarantined', 'uneven-keeled', 'Einsteinian', 'neural', 'neurotic', 'pseudo-neural',
+'anti-neural', 'hyperneural', 'post-neural', 'post-modern', 'modern', 'post-irony',
+'decrypted', 'un-decrypted', 'anticrypted', 'horsefeathered', 'buzzcocked', 'blitzed',
+'path to', 'path into', 'path around', 'path within', 'unpathed', 'unrouted', 'unchecked',
+'pathed', 'routed', 'checked', 'repathed', 'rerouted', 'rechecked', 'depathed', 'derouted',
+'dechecked', 'hypothetical', 'unhypothetical', 'anti-hypothetical', 'de-hypothesized',
+'unhypothesized', 'unformed', 'reformed', 'anti-formed', 'founded', 'unfounded', 
+'refounded', 'defounded', 'post-alpha', 'post-beta', 'post-delta', 'post-epsilon',
+'corned', 'salted', 'unsalted', 'resalted', 'desalted', 'uncorned', 'decorned',
+'recorned', 'dogged', 'undogged', 'redogged', 'dedogged', 'dodged', 'dodgeable',
+'cryptic', 'uncryptic', 'recryptic', 'conditioned', 'unconditioned', 'reconditioned',
+'deconditioned', 'alpha state of', 'beta state of', 'delta state of', 'episilon state of',
+'ionic state of', 'gluonic state of', 'quark-spun', 'quarked', 'unquarked', 'requarked',
+'dequarked', 'small bits of', 'many pieces of', 'several large chunks of', 
+'small manageable chunks of', 'unmanageable chunks of', 'slightly singed',
+'partial', 'impartial', 'anti-partial', 'alpha-partial', 'beta-partial', 'alpha-routed',
+'beta-routed', 'alpha-formed', 'beta-formed', 'undoofed', 'redoofed', 'doof-guarded',
+'doof-checked', 'doof-loader', 'doof-loaded', 'alpha-doofed', 'properties of', 
+'properties about', 'properties associated with', 'properties not associated with',
+'properties possibly associated with', 'unproperties of', 'propetized', 'depropetized',
+'prophesied', 'unprophesied', 'dephrophesied', 'reprophesied', 'duped', 'unduped',
+'reduped', 'deduped', 'duplicated', 'unduplicated', 'reduplicated', 'deduplicated',
+'duplicable', 'unduplicable', 'reduplicable', 'deduplicable', 'hashed', 'unhashed',
+'rehashed', 'dehashed', 'anti-hashed', 'meta-formed', 'meta-hashed', 'meta-duplicated',
+'meta state of', 'meta-proprietary', 'meta-conditioned', 'meta-pathed', 'meta-neural',
+'meta-child', 'meta-governed', 'meta-governing state of', 'meta-path into', 
+'meta-location of', 'meta-natural', 'meta-adapated', 'meta-fertile', 'meta-reactive',
+'meta-loaded', 'meta-chunked', 'meta-properties of', 'meta-duplications of', 
+'meta-bootstrapped', 'meta-bootloaded', 'meta-compromised', 'meta-managed',
+'purpose of', 'purpose for', 'need for the purpose of'
 ]
 
 object_list = ['load arguments', 'toughnut.dll', 'property', 'theory', 'dithers',
@@ -156,7 +190,70 @@ object_list = ['load arguments', 'toughnut.dll', 'property', 'theory', 'dithers'
 'subvolumes', 'subdirectories', 'subroutines', 'sub-functions', 'superfunctions',
 'malfunctions', 'order of things', 'jibblies', 'jellies', 'jiggerties', 'properties',
 'pronouns', 'gender', 'flubbables', 'bloopers', 'effables', 'ineffables', 'scripts',
-'rations', 'h4x0rm@n', 'password', 'passphrase', 'token', 'fish-petting' 
+'rations', 'h4x0rm@n', 'password', 'passphrase', 'token', 'fish-petting', 'cubables',
+'questionables', 'unquestionables', 'RAID10 array', "Roko's basilisk", 'kernel', 
+'pseudokernel', 'superkernel', 'anti-kernel', 'flubbability', 'bona fides', 'signature',
+'signing key', 'signature key', 'anti-signature', 'encryptables', 'unencryptables', 'decryptables',
+'un-decryptables', 'duplicates', 'unduplicates', 'undirectories', 'anti-jibblies',
+'load state', 'load token', 'unfunction', 'hashes', 'unhashes', 'delineations',
+'undileneations', 'actions', 'unactions', 'anti-actions', 'anti-hashes', 'key',
+'cybersplines', 'meta-thrimbals', 'meta-splines', 'meta-keys', 'keys',
+'possibilities', 'meta-possibilities', 'unpossibilities', 'untoken', 'meta-token',
+'meta-folders', 'quasi-phase', 'load phase', 'load settings', 'backup settings',
+'reductive logic', 'deductive logic', 'reductive thinking', 'reductive splines',
+'meta-architectures', 'meta-states', 'quasi-thrimbals', 'unthrimbals', 'thrimbal-phases',
+'byte guards', 'bit guards', 'bit states', 'meta-bits', 'bits', 'bits and bobs', 
+'bits and pieces', 'chunks', 'unchunks', 'meta-chunks', 'meta-loader', 'anti-loader',
+'unconfigurations', 'meta-potentials', 'meta-configs', 'unconfigs', 'meta-configurations',
+'meta-files', 'root files', 'root purposes', 'meta-purposes', 'financial state',
+'dephased state', 'neuro-thrimbals', 'neuro-chunks', 'neuro-functions', 'neuro-guards',
+'meta-functions', 'pseudo-functions', 'pseudo-flappables', 'pseudo-jibblies',
+'pseudo-thrimbals', 'pseudo-pronouns', 'pseudo-configs', 'pseudo-phase', 'pseudo-availiability',
+'pseudo-dithers', 'pseudo-possibilities', 'meta-dithers', 'meta-possibilities', 
+'meta-borrowers', 'pseudo-borrowers', 'pseudo-messages', 'pseudo-flubbability',
+'meta-flubabbility', 'stretchability', 'potentiotomies', 'pseudo-functions', 
+'load functions', 'meta-loads', 'meta-load', 'meta-borrowed', 'meta-music',
+'meta-theory', 'dark secrets', 'open secrets', 'pseudo-secrets', 'meta-secrets',
+'unsecrets', 'meta-questionables', 'pseudo-questionables', 'meta-questions',
+'pseudo-questions', 'questions', 'answers', 'meta-answers', 'pseudo-answers',
+'pseudo-balls', 'meta-balls', 'meta-answerables', 'pseudo-answerables',
+'answerables', 'known knowns', 'known unknowns', 'unknown unknowns', 'pseudo-unknowns',
+'pseudo-knowns', 'meta-unknowns', 'meta-knowns', 'meta-rootables', 'pseudo-rootables',
+'quantum subvolumes', 'atmospheric token', 'stylisms', 'styles', 'meta-styles',
+'pseudo-styles', 'pseudo-stylisms', 'meta-stylisms', 'quasi-styles', 'quasi-stylisms',
+'quasi-questions', 'quasi-answers', 'quasi-logic', 'logic', 'meta-logic', 'pseudo-logic',
+'anti-logic', 'unlogic', 'pseudo-unlogic', 'unactions', 'unfolders', 'undaemons',
+'pseudo-daemons', 'meta-daemons', 'quasi-daemons', 'bit daemons', 'angry daemons',
+'daemons', 'load daemons', 'superdaemons', 'supertoken', 'supervolumes', 'volumes',
+'partition', 'meta-partition', 'quasi-partition', 'pseudo-partition', 'meta-subvolume',
+'meta-subvolumes', 'quasi-subvolume', 'quasi-subvolumes', 'pseudo-subvolume',
+'bytes', 'kilobytes', 'megabytes', 'gigbytes', 'terabytes', 'petabytes', 'untellables',
+'known knowables', 'known unknowables', 'unknown unknowables', 'meta-knowables',
+'meta-unknowables', 'pseudo-knowables', 'pseudo-unknowables', 'roots', 'pseudo-roots',
+'quantum roots', 'bit rot possibility', 'degradation possibility', 'collapse probability',
+'pseudo-collpasibles', 'meta-collpasibles', 'quasi-collaspibles', 'collapsibles',
+'collapsibility', 'meta-collapsibility', 'pseudo-collapsibility', 'anti-collapsibility',
+'uncollapses', 'uncollapsibility', 'unstate', 'meta-unstate', 'pseudo-unstate',
+'meta-bits', 'meta-bytes', 'pseudo-bits', 'pseudo-bytes', 'pseudo-salts', 'hypersalts',
+'hyperfocus', 'pseudo-focii', 'pseudo-focuse', 'quasi-focus', 'quasi-focii', 'meta-focus',
+'meta-focii', 'pseudo-degradation', 'undegradation', 'meta-degradation', 'metaphors',
+'metaphoricals', 'modalities', 'modality', 'pseudo-modality', 'meta-modality',
+'pseudo-modalities', 'meta-modalities', 'unmodality', 'unmodalities', 'quasi-modality',
+'quasi-modalities', 'quasi-degradation', 'quasi-knowables', 'quasi-unknowables',
+'quasi-possibilities', 'infinite possibilities', 'wisdom', 'wise old daemon',
+'delienquency', 'tarballs', 'doofballs', 'hairballs', 'dust bunnies', 'cobwebs',
+'cobwebbables', 'cobwebability', 'webability', 'weeb shit', 'weeb stuff', 'quasi-weeb shit',
+'fursonas', 'fursonalities', 'doofles', 'doofalities', 'doofishness', 'doofables',
+'undoofables', 'doof loader', 'doof unloader', 'path=/etc/doof', 'path=/etc/thrimbals'
+'path=/bin/doof', 'path=/bin/thrmbl', 'path to /doofs', 'path to /undoofs', 
+'paths to thrimbal locations', 'paths to doof locations', 'paths to infinte possibilties',
+'path to finite possibilities', 'paths to collapsibility', 'pseudo-paths to infinite unpossibilities',
+'directors', 'pseudo-directors', 'meta-directors', 'paths to meta-possibilities',
+'infinite improbability drive', 'infinite improbability driver', 'froods', 'meta-froods',
+'hoopy froods', 'pseudo-froods', 'meta-improbabilities', 'paths to meta-improbabilities',
+'paths to quasi-improbabilities', 'paths to questionable taste', 'paths to questionable material',
+'paths to darkness', 'paths to the undoofable', 'token paths', 'pseudo-token paths',
+'root doofability', 'root thrimability'
 ]
 
 # Main function to generate fun loading messages. Pulls a random number for the
@@ -167,13 +264,17 @@ def loader():
     d2 = random.randint(0,int(len(object_property_list) - 1))
     d3 = random.randint(0,int(len(object_list) - 1))
     print(str.capitalize(action_list[d1]) + " " + object_property_list[d2] + " " + object_list[d3] + "...")
-    time.sleep(int(random.randint(1, 5)))
-
-# Calling the function as an infinite while loop
-while __name__ == '__main__':
-    loader()
+    time.sleep(int(random.randrange(0, 5)))
 
 # Debug function to count length of lists
-#print("Length of action_list: " + str(len(action_list)))
-#print("Length of object_property_list: " + str(len(object_property_list)))
-#print("Length of object_list: " + str(len(object_list)))
+def debug_length():
+    print("Length of action_list: " + str(len(action_list)))
+    print("Length of object_property_list: " + str(len(object_property_list)))
+    print("Length of object_list: " + str(len(object_list)))
+
+# Calling the function as an infinite while loop
+#while __name__ == '__main__':
+#    loader()
+
+# Calling debug function to output list length
+debug_length()
